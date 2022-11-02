@@ -26,7 +26,7 @@ export const Card = styled.div`
           text-decoration: none;
           font-size: 1.4rem;
           background-color: ${colors.primary};
-          color: ${colors.white};
+          color: ${colors.black};
           padding: 0.6rem 4rem;
           border-radius: 1rem;
           width: 4rem;
