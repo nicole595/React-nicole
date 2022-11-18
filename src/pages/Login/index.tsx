@@ -1,7 +1,6 @@
 import { FormEvent, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-
 import * as S from "./styles";
 import { ButtonComponent } from "components";
 import { useAuth } from "hooks/authHook";
@@ -58,6 +57,7 @@ const Login = () => {
         </p>
       </form>
     </S.Section>
+    
   );
 };
 
